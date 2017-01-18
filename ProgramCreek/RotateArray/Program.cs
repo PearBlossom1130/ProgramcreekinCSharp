@@ -8,9 +8,9 @@ namespace RotateArray
 		{
 			int[] k = { 1, 2, 3, 4, 5, 6, 7 };
 
-			Rotate1(k, 13);
+			//Rotate1(k, 13);
 			//Rotate2(k, 13);
-
+			Rotate3(k, 3);
 		}
 
 		// Space: O(n) Time: O(n)
@@ -34,7 +34,6 @@ namespace RotateArray
 			Array.Copy(result, nums, nums.Length); // Must to return the results in nums array
 		}
 
-
 		//Space: O(1) Time:O(n*k)
 		public static void Rotate2(int[] nums, int k)
 		{
@@ -42,6 +41,8 @@ namespace RotateArray
 			{
 				throw new ArgumentException();
 			}
+
+			if (k > nums.Length) k = k % nums.Length;
 
 			for (var i = 0; i < k; i++)
 			{
@@ -53,7 +54,6 @@ namespace RotateArray
 				}
 			}
 		}
-
 
 		//Space: O(1) Time:O(n)
 		public static void Rotate3(int[] nums, int k)
@@ -84,7 +84,5 @@ namespace RotateArray
 				right--;
 			}
 		}
-	
-
-}
+	}
 }
