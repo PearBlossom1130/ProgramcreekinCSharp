@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateArray", "RotateArray\RotateArray.csproj", "{1C052F41-1A74-48DB-B05F-C7176E177CB7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StringArray", "StringArray", "{477AEF97-F815-4C2B-9213-A5FCD5D2BC9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseWordsInString", "ReverseWordsInString\ReverseWordsInString.csproj", "{0058BA81-9213-4428-AB44-DF4D80AECDA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,16 @@ Global
 		{1C052F41-1A74-48DB-B05F-C7176E177CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C052F41-1A74-48DB-B05F-C7176E177CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C052F41-1A74-48DB-B05F-C7176E177CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0058BA81-9213-4428-AB44-DF4D80AECDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0058BA81-9213-4428-AB44-DF4D80AECDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0058BA81-9213-4428-AB44-DF4D80AECDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0058BA81-9213-4428-AB44-DF4D80AECDA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C052F41-1A74-48DB-B05F-C7176E177CB7} = {477AEF97-F815-4C2B-9213-A5FCD5D2BC9E}
+		{0058BA81-9213-4428-AB44-DF4D80AECDA8} = {477AEF97-F815-4C2B-9213-A5FCD5D2BC9E}
 	EndGlobalSection
 EndGlobal
