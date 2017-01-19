@@ -6,6 +6,11 @@ namespace IsomorphicStrings
 	{
 		static void Main(string[] args)
 		{
+		    var s1 = "Tee";
+		    var s2 = "Fo1";
+
+		    var b = IsIsomorphic(s1, s2);
+
 		}
 
 		public static bool IsIsomorphic(string s1, string s2)
@@ -20,12 +25,18 @@ namespace IsomorphicStrings
 			int i = 0;
 			foreach (var c in s1)
 			{
-				if (dic.Keys(c))
+			    if (dic.ContainsKey(c))
+			    {
+			        if (dic[c] != s2[i]) return false;
+			    }
+			    else
+			    {
+			        dic.Add(c, s2[i]);
+			    }
+			    i++;
 			}
 
-
-
-			return false;
+			return true;
 		}
 	}
 }
