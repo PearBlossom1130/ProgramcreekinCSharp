@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvaluateRPN", "EvaluateRPN\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsomorphicStrings", "IsomorphicStrings\IsomorphicStrings.csproj", "{56039D06-3057-4E84-B427-55D72D60D88E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordLadder", "WordLadder\WordLadder.csproj", "{9785269D-F5B7-458C-9835-42D149D02D56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{56039D06-3057-4E84-B427-55D72D60D88E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56039D06-3057-4E84-B427-55D72D60D88E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56039D06-3057-4E84-B427-55D72D60D88E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9785269D-F5B7-458C-9835-42D149D02D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9785269D-F5B7-458C-9835-42D149D02D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9785269D-F5B7-458C-9835-42D149D02D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9785269D-F5B7-458C-9835-42D149D02D56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,5 +50,6 @@ Global
 		{0058BA81-9213-4428-AB44-DF4D80AECDA8} = {477AEF97-F815-4C2B-9213-A5FCD5D2BC9E}
 		{C18ACD4A-D35C-410F-B384-93582DB278C8} = {477AEF97-F815-4C2B-9213-A5FCD5D2BC9E}
 		{56039D06-3057-4E84-B427-55D72D60D88E} = {477AEF97-F815-4C2B-9213-A5FCD5D2BC9E}
+		{9785269D-F5B7-458C-9835-42D149D02D56} = {477AEF97-F815-4C2B-9213-A5FCD5D2BC9E}
 	EndGlobalSection
 EndGlobal
